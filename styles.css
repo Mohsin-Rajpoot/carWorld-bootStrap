@@ -1,0 +1,261 @@
+:root{
+    --blue:#45b6fe;
+    --light:#e2effc;
+    --grey:#636363;
+    }
+    
+    body{
+        margin:0;
+        padding: 0;
+        background-color: #FFFFFF;
+    }
+    
+    
+    .first h3{
+        color: var(--blue);
+        
+    }
+    
+    
+    .twitter,.insta,.facebook{
+        font-size: 20px;
+       color: var(--blue);
+       padding-top: 5px;
+    }
+    .flag{
+    color:var(--blue);
+    font-size: 15px;
+    }
+    .search{
+        color: white;
+    }
+    .searchBtn{
+        background-color: var(--blue);
+    }
+    .twitter:hover,.insta:hover,.facebook:hover,.flag:hover{
+        color: #60C2C9;
+    }
+    
+    .login{
+    border-right: 3px solid var(--blue);
+        height: 30px;
+        margin-top: 6px;
+        padding-right: 10px;
+    
+    }
+    .first ul a{
+        text-decoration: none;
+        color: #636363;
+    }
+    .second{
+        background-color: var(--light);
+    }
+
+    .navBar{
+        background-color: var(--light) !important;
+    
+    }
+    .navbar-light .navbar-nav .active > .nav-link{
+        color: var(--blue);
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color: var(--blue);
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .navBar button{
+        padding: .5rem 1.5rem;
+        background-color: var(--blue);
+    
+    }
+  
+    .input-group > .input-group-prepend > .btn{
+        padding: 1rem 1.5rem;
+        color: var(--grey);
+        outline: none;
+        
+    }
+    
+.rd .bn{
+    background-color: transparent;
+    border: transparent;
+    font-size: 19px;
+    background-color: var(--blue) !important;
+}
+.rd button{
+background-color: #F5F5F5;
+}
+
+.rd i{
+    color: var(--blue);
+}
+    .srch input{
+        background-color: #F5F5F5;
+    }
+
+
+
+    .part4 button{
+        background-color: transparent;
+        border: transparent;
+        color: var(--blue);
+        font-size: 22px;
+        color:var(--grey);
+    }
+    .part4 h4{
+        color: var(--grey);
+        padding-right: 12px;
+    }
+     .float-end .bn3{
+        background-color: var(--blue);
+        padding: .9rem 3rem;
+        margin-left: 5px;
+        
+
+    }
+    .float-end h3{
+        color: var(--blue);
+        font-size: 28px;
+        margin-bottom: 12px;
+    } 
+    .btn1 span i{
+        font-size: 28px;
+        color: var(--blue);
+        
+    }
+    .fa-heart:before {
+        font-size: 25px;
+        color: var(--blue);
+        margin-top: 5px;
+    }
+    .btn2 button{
+        padding: .7rem 4rem;
+    }
+    .part6{
+        background-color: var(--light);
+    }
+
+    
+    .part6 h5{
+        color: var(--blue);
+         padding-top: 40px; 
+    
+    }
+    .part6 button{
+        background-color:#F5F5F5;
+        color: var(--grey);
+        outline: none !important;
+    }
+    .part6 button:focus {
+        outline: none;
+        box-shadow: none;
+        }
+    
+    .radio label{
+        color: var(--blue);
+        font-weight: bold;
+        font-size: 24px;
+    }    
+    .radio .form-check-input{
+        font-size: 24px;
+        margin-left: 1rem;
+    }
+    
+    .part6 .btn3 h3{
+        font-size: 28px;
+    color: var(--blue);
+    }
+    .part6 .btn3 button{
+        background-color:transparent;
+    }
+    .btn3 span i{
+        font-size: 28px;
+        color: var(--blue);
+    }
+    .part6 .btn4 button{
+        padding: .7rem 4rem;
+        background-color: var(--blue);
+        color: white;
+    
+    }
+    .part6 .boxes label{
+        color: var(--blue);
+        font-weight: bold;
+        font-size: 20px;
+        
+        
+    }
+    .part6 .boxes input{
+        font-size: 20px;
+    }
+    .part7 .offer{
+        border-bottom: 2px solid var(--blue);
+
+    }
+
+    .service{
+        border-bottom: 2px solid #636363;
+
+    }
+    .part7 h2{
+        color: var(--grey);
+    }
+    .part7 .r2 .btn{
+        border: none;
+    }
+    .part7 .content .offer button{
+        color: var(--blue);
+    }
+    .part8{
+        background-color: var(--light);
+    }
+    .part8 img{
+        width: 120px;
+    }
+
+    .part8 .r1{
+        border-bottom: 2px solid #636363;
+
+    }
+
+    /* only apply on medium screen
+    for small 768  */
+
+    @media only screen and (max-width: 992px) {
+        .second .nd2{
+            float: left !important;
+            color: yellow;
+        }
+        .first ul{
+            padding-top: 20px;
+        }
+        .part3 .srch{
+            float: left !important;
+        }
+        .part4 .float-end{
+            float: left !important;
+        }
+       }
+       @media only screen and (max-width: 768px) {
+       .first ul{
+           padding-top: 20px;
+       }
+       .part3 .srch{
+        float: left !important;
+        padding-top: 10px;
+        
+    }
+    .part4 .float-end{
+        float: left !important;
+        padding-top: 10px;
+
+    }
+    .part6 button{
+        width: 100%;
+       text-align: left; 
+    }
+    .part6 .dropdown .dropdown-toggle::after {
+        float: right;
+    }
+    
+       }
